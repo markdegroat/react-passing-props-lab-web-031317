@@ -5,21 +5,21 @@ import Filter from './Filter';
 import FilteredFruitList from './FilteredFruitList.js';
 
 class FruitBasket extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      filters: [],
-      selectedFilter: null
-    };
-
-    this.handleFilterChange = this.handleFilterChange.bind(this);
-  }
-
-  handleFilterChange(e) {
-    console.log('new filter: ', e.target.value);
-    this.setState({ selectedFilter: e.target.value });
-  }
+  // constructor() {
+  //   super();
+  //
+  //   this.state = {
+  //     filters: [],
+  //     selectedFilter: null
+  //   };
+  //
+  //   this.handleFilterChange = this.handleFilterChange.bind(this);
+  // }
+  //
+  // handleFilterChange(e) {
+  //   console.log('new filter: ', e.target.value);
+  //   this.setState({ selectedFilter: e.target.value });
+  // }
 
   render() {
     return (
